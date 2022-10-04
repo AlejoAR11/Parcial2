@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VerFal));
             this.label1 = new System.Windows.Forms.Label();
             this.gbxVF1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.rbtnV1 = new System.Windows.Forms.RadioButton();
             this.rbtnF1 = new System.Windows.Forms.RadioButton();
+            this.rbtnV1 = new System.Windows.Forms.RadioButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gbxVF2 = new System.Windows.Forms.GroupBox();
             this.rbtnF2 = new System.Windows.Forms.RadioButton();
             this.rbtnV2 = new System.Windows.Forms.RadioButton();
@@ -70,26 +69,15 @@
             this.gbxVF1.TabStop = false;
             this.gbxVF1.Text = "Pregunta 1";
             // 
-            // pictureBox1
+            // rbtnF1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(244, 165);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 199);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "¿Este actor es Ryan Reynolds?";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.rbtnF1.AutoSize = true;
+            this.rbtnF1.Location = new System.Drawing.Point(122, 227);
+            this.rbtnF1.Name = "rbtnF1";
+            this.rbtnF1.Size = new System.Drawing.Size(50, 17);
+            this.rbtnF1.TabIndex = 3;
+            this.rbtnF1.Text = "Falso";
+            this.rbtnF1.UseVisualStyleBackColor = true;
             // 
             // rbtnV1
             // 
@@ -103,15 +91,26 @@
             this.rbtnV1.Text = "Verdadero";
             this.rbtnV1.UseVisualStyleBackColor = true;
             // 
-            // rbtnF1
+            // label2
             // 
-            this.rbtnF1.AutoSize = true;
-            this.rbtnF1.Location = new System.Drawing.Point(122, 227);
-            this.rbtnF1.Name = "rbtnF1";
-            this.rbtnF1.Size = new System.Drawing.Size(50, 17);
-            this.rbtnF1.TabIndex = 3;
-            this.rbtnF1.Text = "Falso";
-            this.rbtnF1.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 199);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "¿Este actor es Ryan Reynolds?";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Segundo_parcial.Properties.Resources.RGs;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(244, 165);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // gbxVF2
             // 
@@ -160,7 +159,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Image = global::Segundo_parcial.Properties.Resources.Si;
             this.pictureBox2.Location = new System.Drawing.Point(6, 19);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(244, 165);
